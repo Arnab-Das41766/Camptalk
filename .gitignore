@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables - NEVER commit these
+.env
+.env.local
+.env.production
+
+# WhatsApp session - contains your auth credentials
+# Delete this folder and re-scan QR to re-authenticate
+auth_info/
+
+# Turso WAL files (local SQLite cache)
+*.db
+*.db-wal
+*.db-shm
+auth-wal
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript cache
+*.tsbuildinfo
